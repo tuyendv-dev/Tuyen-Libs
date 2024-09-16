@@ -16,8 +16,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d29bfd0-da8b-4910-9c61-f4ddf69edc54" name="Changes" comment="update 1.0.0">
+    <list default="true" id="6d29bfd0-da8b-4910-9c61-f4ddf69edc54" name="Changes" comment="update 1.0.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuyenLog/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/TuyenLog/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuyenMath/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/TuyenMath/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726460938480</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update 1.0.2">
+      <option name="closed" value="true" />
+      <created>1726461479279</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726461479279</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -266,6 +277,7 @@
     <MESSAGE value="update 1.0.4" />
     <MESSAGE value="update 1.0.6" />
     <MESSAGE value="update 1.0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 1.0.0" />
+    <MESSAGE value="update 1.0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 1.0.2" />
   </component>
 </project>

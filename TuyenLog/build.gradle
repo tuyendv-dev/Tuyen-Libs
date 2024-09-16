@@ -35,7 +35,7 @@ publishing {
         aarDebug(MavenPublication) {
             groupId = 'github.com.tuyendv-dev'
             artifactId = 'TuyenLog'
-            version = '1.0.0d'
+            version = '1.0.3d'
 
 //            from components["debug"]
         }
@@ -43,7 +43,7 @@ publishing {
         aarRelease(MavenPublication) {
             groupId = 'github.com.tuyendv-dev'
             artifactId = 'TuyenLog'
-            version = '1.0.0'
+            version = '1.0.3'
 
 //            from components["release"]
         }
