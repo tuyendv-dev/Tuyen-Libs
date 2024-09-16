@@ -32,28 +32,17 @@ android {
 publishing {
     publications {
 
-//        aarDebug(MavenPublication) {
-//            groupId = 'github.com.tuyendv-dev'
-//            artifactId = 'TuyenLog'
-//            version = '1.0.3d'
-//
-//            from components.debug
-//        }
-//
-//        aarRelease(MavenPublication) {
-//            groupId = 'github.com.tuyendv-dev'
-//            artifactId = 'TuyenLog'
-//            version = '1.0.3'
-//
-//            from components.release
-//        }
-        aar(MavenPublication) {
+        aarRelease(MavenPublication) {
             groupId = 'github.com.tuyendv-dev'
             artifactId = 'TuyenLog'
-            version = '1.0.0'
+            version = '1.0.7'
 
+//            from components["android"]
 //            from components["release"]
         }
+    }
+    repositories {               // << --- ADD This
+        mavenLocal()
     }
 }
 

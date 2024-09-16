@@ -42,12 +42,16 @@ dependencies {
 
 publishing {
     publications {
-        aar(MavenPublication) {
+        aarRelease(MavenPublication) {
             groupId = 'github.com.tuyendv-dev'
             artifactId = 'TuyenMath'
-            version = '1.0.3'
+            version = '1.0.7'
 
+//            from components["android"]
 //            from components["release"]
         }
+    }
+    repositories {               // << --- ADD This
+        mavenLocal()
     }
 }
