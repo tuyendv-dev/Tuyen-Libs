@@ -32,28 +32,28 @@ android {
 publishing {
     publications {
 
-        aarDebug(MavenPublication) {
-            groupId = 'github.com.tuyendv-dev'
-            artifactId = 'TuyenLog'
-            version = '1.0.3d'
-
-//            from components["debug"]
-        }
-
-        aarRelease(MavenPublication) {
-            groupId = 'github.com.tuyendv-dev'
-            artifactId = 'TuyenLog'
-            version = '1.0.3'
-
-//            from components["release"]
-        }
-//        aar(MavenPublication) {
+//        aarDebug(MavenPublication) {
 //            groupId = 'github.com.tuyendv-dev'
 //            artifactId = 'TuyenLog'
-//            version = '1.0.0'
+//            version = '1.0.3d'
 //
-//            from components["release"]
+//            from components.debug
 //        }
+//
+//        aarRelease(MavenPublication) {
+//            groupId = 'github.com.tuyendv-dev'
+//            artifactId = 'TuyenLog'
+//            version = '1.0.3'
+//
+//            from components.release
+//        }
+        aar(MavenPublication) {
+            groupId = 'github.com.tuyendv-dev'
+            artifactId = 'TuyenLog'
+            version = '1.0.0'
+
+//            from components["release"]
+        }
     }
 }
 
